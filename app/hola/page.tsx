@@ -17,7 +17,7 @@ export default function Home() {
       alt="Picture of the author"
         /> 
     
-    <button type="button" onClick={() => router.push('app/')}>
+    <button type="button" onClick={() => router.push('/')}>
       Dashboard
     </button>
 
