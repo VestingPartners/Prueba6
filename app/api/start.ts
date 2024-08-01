@@ -15,4 +15,4 @@ export default function handler(
     console.error('Error handling request:', error);
     res.status(500).json({ message: 'Internal Server Error' });
   }
-}
+} 
